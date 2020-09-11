@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: blueviolet;
+    height: 100vh;
+}
+
+h1{
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: wheat;
+}
