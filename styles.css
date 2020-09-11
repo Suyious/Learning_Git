@@ -9,22 +9,21 @@ body{
     background-size: 400% 400%;
     animation: gradientBG 10s ease infinite;
     height: 100vh;
-    display: flex;
-}
-
-
-.centre{
-    padding: auto;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-h1,h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
 }
+
+
+.centre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto;
+}
+
+
+
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
@@ -33,10 +32,30 @@ h1{
     font-weight: 100;
 }
 
+
+.bodywidth{
+    padding: 1em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li{
+    margin-left: 2em;
+}
+
 h2{
     font-size: 2em;
     font-weight: 200;
 }
+
 
 @keyframes gradientBG { 
     0%{
