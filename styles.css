@@ -5,12 +5,47 @@
 }
 
 body{
-    background: blueviolet;
+    background:  linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #2cff96);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    height: 100vh;
+    display: flex;
 }
 
-h1{
+
+.centre{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: wheat;
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 200;
+}
+
+@keyframes gradientBG { 
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%; 
+    }
+    100%{
+        background-position: 0% 50%; 
+    }
 }
